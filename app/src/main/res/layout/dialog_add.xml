@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/tv_title_vertical_margin"
+        android:layout_marginTop="@dimen/tv_title_vertical_margin"
+        android:text="@string/str_add_a_drop"
+        android:textSize="@dimen/tv_title_fontSize" />
+
+    <ImageButton
+        android:id="@+id/btn_close"
+        android:layout_width="@dimen/btn_drop_width"
+        android:layout_height="@dimen/btn_drop_height"
+        android:layout_alignBottom="@id/tv_title"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/tv_title"
+        android:background="@null"
+        android:src="@drawable/ic_close" />
+<EditText
+    android:id="@+id/et_drop"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:inputType="textVisiblePassword"
+    android:layout_below="@id/tv_title"
+    android:hint="@string/hint_et_drop"
+    android:padding="@dimen/btn_text_padding"
+
+    />
+    <DatePicker
+        android:id="@+id/bpv_date"
+        android:layout_below="@id/et_drop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </DatePicker>
+    <Button
+        android:id="@+id/btn_add_it"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bpv_date"
+        android:text="add it!"
+        android:textAllCaps="false"
+        />
+
+    
+    
+</RelativeLayout>

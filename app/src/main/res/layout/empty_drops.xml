@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="@dimen/logo_width"
+        android:layout_height="@dimen/Logo_height"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/logo_margin"
+
+        android:src="@drawable/logo"
+        />
+ <Button
+     android:id ="@+id/btn_add"
+     android:background="@drawable/bg_btn_add_it"
+     android:layout_width="wrap_content"
+     android:fontFamily="sans-serif-thin"
+     android:onClick="showDialog"
+     android:layout_height="wrap_content"
+     android:layout_centerHorizontal="true"
+     android:layout_below="@+id/iv_logo"
+     android:text="@string/str_add_a_drop"
+     android:textAllCaps="false"
+     android:textColor="@color/btn_add_color"
+     android:layout_margin="@dimen/btn_add_it_margin"
+     android:paddingLeft="@dimen/logo_left_padding"
+     android:paddingRight="@dimen/logo_right_padding"
+     android:paddingTop="@dimen/logo_top_padding"
+     android:paddingBottom="@dimen/logo_bottom_padding"
+     android:textSize="@dimen/btn_add_it_text_size"
+     />
+
+
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //logo
+
+    <dimen name="logo_left_padding">60dp</dimen>
+    <dimen name="logo_right_padding">60dp</dimen>
+    <dimen name="logo_top_padding">8dp</dimen>
+    <dimen name="logo_bottom_padding">8dp</dimen>
+    <dimen name="logo_margin">84dp</dimen>
+    <dimen name="logo_width">192dp</dimen>
+    <dimen name="Logo_height">192dp</dimen>
+
+    //btn add it
+
+
+    <dimen name="btn_add_it_corner_radius">2dp</dimen>
+    <dimen name="btn_add_it_margin">24dp</dimen>
+    <dimen name="btn_add_it_text_size">28sp</dimen>
+    <dimen name="btn_add_it_stroke">1dp</dimen>
+    <dimen name="tv_title_vertical_margin">36dp</dimen>
+    <dimen name="tv_title_fontSize">18sp</dimen>
+    <dimen name="btn_drop_width">12dp</dimen>
+    <dimen name="btn_drop_height">12dp</dimen>
+    <dimen name="btn_text_padding">16dp</dimen>
+</resources>
